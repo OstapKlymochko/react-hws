@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import {GetChar} from "./getChar";
 import './Main.css'
 
 const Characters = () => {
@@ -15,10 +16,7 @@ const Characters = () => {
         <ul>
             {
                 char.filter(val => val.id < 7).map(val => <li>
-                    <div>
-                        {val.id}. {val.name} {val.status} {val.species} {val.gender}
-                        <img src={val.image} alt="character"/>
-                    </div>
+                  <GetChar item={val}/>
                 </li>)
             }
         </ul>
