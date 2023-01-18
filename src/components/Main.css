@@ -1,0 +1,8 @@
+.Simpson {
+    height: auto;
+    background: silver;
+    border-radius: 10px;
+}
+.data{
+    display: flex;
+}
