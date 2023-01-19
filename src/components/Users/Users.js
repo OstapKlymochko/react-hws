@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 
 import {userServices} from "../../services/userServices";
 import {User} from "../User/User";
+
 const Users = () => {
    const [users, setUsers] = useState([]);
    useEffect(()=>{
