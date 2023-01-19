@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 
 import {userServices} from "../../services/userServices";
-import {Posts} from "./Posts";
+import {Posts} from "../Posts/Posts";
+import './Main.css'
 
 const User = ({user}) => {
     const {id, name} = user
