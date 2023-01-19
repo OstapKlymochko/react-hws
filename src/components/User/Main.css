@@ -1,0 +1,19 @@
+.posts_div{
+    box-sizing: border-box;
+    background: silver;
+    border-radius: 10px;
+    padding: 30px;
+    animation-name:open;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+@keyframes open {
+    from{
+        height: 0;
+    }
+    to{
+        height: 1150px;
+    }
+}
